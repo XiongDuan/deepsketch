@@ -9,7 +9,7 @@
 # Deepsketch
 This code is incomplete corresponding to the paper, see more in http://dx.doi.org/10.1016/j.neucom.2016.04.046.
 
-New version can be download in https://github.com/DuanXiong/deepsketch.
+New version can be download in https://github.com/XiongDuan/deepsketch.
 
 If you use this demo in your project, we appreciate it if you cite an appropriate subset of our paper:
 
