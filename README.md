@@ -8,7 +8,7 @@
 
 # deepsketch
 This code is incomplete corresponding to the paper, see more in http://dx.doi.org/10.1016/j.neucom.2016.04.046
-
+New version can be download in https://github.com/DuanXiong/deepsketch
 If you use this demo in your project, we appreciate it if you cite an appropriate subset of our paper:
 
 @article{wang2016deep,
@@ -24,8 +24,10 @@ If you use this demo in your project, we appreciate it if you cite an appropriat
 1. dataset.
   The skecth dataset can be download in http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/.
   And the corresponding image dataset can be download in http://pan.baidu.com/s/1eSHfRdK
+
 2. toolbox.
   This project need download Piotr's Matlab Toolbox (https://pdollar.github.io/toolbox/), edgebox-toolbox(https://github.com/pdollar/edges) and caffe(https://github.com/BVLC/caffe) to support. For the windows-caffe, you can setup your environment by using(https://github.com/happynear/caffe-windows ).
+
 3. put the code, Piotr's Matlab Toolbox and edgebox-toolbox in caffe-windows-master\matlab\demo.
   Edit deepsketch.m in your matlab wrapper and change all the paths in the code.
 
