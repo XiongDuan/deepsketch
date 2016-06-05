@@ -1,0 +1,1 @@
+..\..\bin\caffe.exe train --solver=solver.prototxt --weights=..\models\bvlc_reference_caffenet.caffemodel --gpu all
