@@ -9,7 +9,7 @@
 # Deepsketch
 This code is incomplete corresponding to the paper, see more in http://dx.doi.org/10.1016/j.neucom.2016.04.046.
 
-New version can be download in https://github.com/XiongDuan/deepsketch.
+New version can be downloaded in https://github.com/XiongDuan/deepsketch.
 
 If you use this demo in your project, we appreciate it if you cite an appropriate subset of our paper:
 
@@ -25,8 +25,8 @@ If you use this demo in your project, we appreciate it if you cite an appropriat
 # The step of using deepsketch demo code.
 1. dataset.
 
-  The skecth dataset can be download in http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/.
-  And the corresponding image dataset can be download in http://pan.baidu.com/s/1eSHfRdK
+  The skecth dataset can be downloaded in http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/.
+  And the corresponding image dataset can be downloaded in http://pan.baidu.com/s/1eSHfRdK
 
 2. toolbox.
 
