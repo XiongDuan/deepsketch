@@ -1,8 +1,8 @@
-function gen_caffe_list(dbDir, listpath)
-    dbPaths = fullfile(dbDir,'db_info.mat');
+function gen_caffe_list(dbDirs, listpath)
     fid = fopen(listpath, 'w');
-    for i = 1:length(dbPaths)
-        imdb = load(dbPaths{i});
+    for i = 1:length(dbDirs)
+        dbPath = fullfile(dbDirs{i},'db_info.mat');
+        imdb = load(dbPath);
         imdb = imdb.db_info;
         for j = 1:imdb.imnum
 %             imdb.path{j}(strfind(imdb.path{j}, ' ')) = '_';
