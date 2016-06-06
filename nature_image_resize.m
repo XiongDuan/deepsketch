@@ -20,6 +20,6 @@ function I = nature_image_resize(image, sz, aug, model)
     if isa(model,'struct')
         im = 1-edgesDetect(I,model);
         im = ~im2bw( im, 0.8 );
-        I = ~bwmorph(im, 'thin', inf);
+        I = uint8(~bwmorph(im, 'thin', inf)*255);
     end
 end
