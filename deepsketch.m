@@ -10,8 +10,8 @@
 % you need put the './edges-master/' and './piotr_toolbox' in it. 
 %%
 %%
-addpath(genpath('./edges-master/'));
-addpath(genpath('./piotr_toolbox'));
+addpath(genpath('../edges-master/'));
+addpath(genpath('../piotr_toolbox'));
 savepath;
 
 sketch_dir = 'H:\code_sketch_caffe\cnn\data\png';
